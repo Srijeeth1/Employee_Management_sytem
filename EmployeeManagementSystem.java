@@ -13,7 +13,7 @@ public class EmployeeManagementSystem {
     public static void main(String[] args) {
         try {
             // Open a connection
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "srijith");
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "username", "password");
 
             while (true) {
                 System.out.println("Employee Management System");
